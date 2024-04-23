@@ -32,7 +32,7 @@ public class ShareLaneTest {
 
 
     @Test
-    public void zipCodeIsEmpty() {
+    public void zipCodeIsEmptyNegativeTest() {
 
         RemoteWebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -51,7 +51,7 @@ public class ShareLaneTest {
     }
 
     @Test
-    public void zipCodeEnter4digit() {
+    public void zipCodeEnterFourDigitNegativeTest() {
 
         RemoteWebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -99,7 +99,7 @@ public class ShareLaneTest {
     }
 
     @Test
-    public void signUpWithoutConfirmPassword() {
+    public void signUpWithoutConfirmPasswordNegativeTest() {
 
         RemoteWebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -127,7 +127,7 @@ public class ShareLaneTest {
     }
 
     @Test
-    public void signUpWithoutDomainMail() {
+    public void signUpWithoutDomainMailNegativeTest() {
 
         RemoteWebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
